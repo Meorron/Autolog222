@@ -1,0 +1,93 @@
+.section-project{
+	
+	display: flex;
+	justify-content:;
+}
+
+.project-info h3{
+	padding-bottom:70px;
+	font-size: 30px;  
+}
+
+.project-info{
+	padding-top: 100px;
+	height: 100vh;
+}
+
+.project-info li{
+	font-size: 35px;  
+	margin-bottom: 40px; 
+}
+
+.project-info button{
+	font-family: "Mont";
+	background-color:#cddbf2;
+	border: 2px solid #a6a9ad; 
+	color:#666; 
+	margin-bottom:40px; 
+	width: 100px;
+	height: 50px;
+}
+
+.fresh{
+
+	background-image: url("../img/footer/image-2.jpg");
+	min-height: calc(100vh - 60px);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.short-info{
+	font-family: "Trebuchet MS";
+	background-image: url("../img/footer/image-1.jpg");
+	min-height: calc(100vh - 60px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(1.05) sepia(.2) contrast(.9) saturate(.9);
+}
+.color-picker{
+	background-image: url("../img/toppage/colorchoice/Tokyo.jpg");
+	min-height: calc(100vh - 60px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content:flex-start;
+}
+.short-info h1{
+	
+	color: white;
+	font-size:120px;
+	margin-bottom:20px;
+	margin-left:50px;
+	display: flex;
+	align-items:center;
+}
+.short-info h3{
+	color: white;
+	font-size:40px;
+	margin-left: 20px;
+}
+
+.short-info button{
+ 	width: 250px;
+ 	height: 60px;
+ 	background-color: #c7081b;
+ 	margin-left: 20px;
+ 	font-size: 20px;
+ 	color:  #fff;
+ 	cursor: help;
+}
+.short-info span{
+	color:#c7081b; 
+}
+
+
+
+
+.color-picker button{
+	width: 100px;
+	height: 50px;
+	border: none;
+	margin-right:5px;
+	
+}

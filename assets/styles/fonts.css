@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "Cocogoose";
+	src: url("../fonts/Cocogoose-Compressed/Cocogoose-Compressed-Letterpress-trial.ttf");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Cocogoose";
+	src: url("../fonts/Cocogoose-Compressed/Cocogoose-Compressed-UltraLight-Trial.ttf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Cocogoose";
+	src: url("../fonts/Cocogoose-Compressed/Cocogoose-Compressed-Thin-Trial.ttf");
+	font-weight: normal;
+}

@@ -1,0 +1,60 @@
+.modal-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-container.-close{
+	display: none;
+}
+.modal-container.-open{
+	
+}
+.modal-cover{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color:rgba(52, 58, 64, .8);
+	z-index: 9;
+	cursor: pointer;
+}
+
+
+.modal{
+	border-radius: 4px;
+	position: fixed;
+	top:10%;
+	background-color: #fff;
+	width: 1000px;
+	height: 800px;
+	z-index: 99;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 20px;
+}
+.modal img{
+	width: 290px;
+	height: 290px;
+}
+.modal button{
+	font-family: "Trebuchet MS";
+	padding: 0 3px 0 3px;
+	height: 35px;
+	border: 1px dashed #c7081b;
+	background-color: #fff;
+	font-size: 15px;
+	color: #000;
+	transition: 0.6s;
+}
+.modal button:hover {
+	background-color: #c7081b;
+	font-size: 15px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.dollar{
+	font-size: 40px;
+}
